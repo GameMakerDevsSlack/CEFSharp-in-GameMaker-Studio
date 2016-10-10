@@ -1,0 +1,30 @@
+E:\VB\CefSharp\CefSharp\obj\x86\Release\CefSharp.Form1.resources
+E:\VB\CefSharp\CefSharp\obj\x86\Release\CefSharp.Properties.Resources.resources
+E:\VB\CefSharp\CefSharp\obj\x86\Release\CefSharp.csproj.GenerateResource.Cache
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.exe.config
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.exe
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.pdb
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.Core.dll
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.dll
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.WinForms.dll
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.WinForms.xml
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.xml
+E:\VB\CefSharp\CefSharp\bin\x86\Release\CefSharp.Core.xml
+E:\VB\CefSharp\CefSharp\obj\x86\Release\CefSharp.exe
+E:\VB\CefSharp\CefSharp\obj\x86\Release\CefSharp.pdb
+E:\VB\CefSharp\CefSharp\obj\x86\Release\CefSharp.csprojResolveAssemblyReference.cache
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.exe.config
+E:\VB\CefSharp - Copy (2)\CefSharp\obj\x86\Release\CefSharp.exe
+E:\VB\CefSharp - Copy (2)\CefSharp\obj\x86\Release\CefSharp.pdb
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.exe
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.pdb
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.Core.dll
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.dll
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.WinForms.dll
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.WinForms.xml
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.xml
+E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.Core.xml
+E:\VB\CefSharp - Copy (2)\CefSharp\obj\x86\Release\CefSharp.csprojResolveAssemblyReference.cache
+E:\VB\CefSharp - Copy (2)\CefSharp\obj\x86\Release\CefSharp.Form1.resources
+E:\VB\CefSharp - Copy (2)\CefSharp\obj\x86\Release\CefSharp.Properties.Resources.resources
+E:\VB\CefSharp - Copy (2)\CefSharp\obj\x86\Release\CefSharp.csproj.GenerateResource.Cache
