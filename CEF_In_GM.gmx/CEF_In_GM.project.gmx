@@ -24,7 +24,7 @@
     <room>rooms\rm_test</room>
   </rooms>
   <constants number="2">
-    <constant name="release">1</constant>
+    <constant name="release">0</constant>
     <constant name="gameFilename">"CEF_In_GM"</constant>
   </constants>
   <help>
