@@ -14,6 +14,7 @@
   <scripts name="scripts">
     <script>scripts\scr_cef_start.gml</script>
     <script>scripts\scr_cef_kill.gml</script>
+    <script>scripts\remove_trailing_slash.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
