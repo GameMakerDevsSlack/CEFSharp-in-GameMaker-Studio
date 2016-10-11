@@ -1,0 +1,18 @@
+[1007/113746:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1007/115556:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1007/123520:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1007/231531:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1007/233913:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1007/235129:WARNING:spdy_session.cc(2427)] Received HEADERS for invalid stream 21
+[1007/235516:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1007/235516:ERROR:gles2_cmd_decoder.cc(13997)] [.CommandBufferContext.RenderWorker-0989D5A8]GL ERROR :GL_INVALID_VALUE : glCopySubTextureCHROMIUM: source texture has no level 0
+[1007/235516:ERROR:gles2_cmd_decoder.cc(13997)] [.CommandBufferContext.RenderWorker-0989D5A8]GL ERROR :GL_INVALID_VALUE : glCopySubTextureCHROMIUM: source texture has no level 0
+[1008/105522:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1008/105856:WARNING:ipc_channel_win.cc(375)] Unable to create pipe "\\.\pipe\chrome.10992.0.162749252" in client mode: The system cannot find the file specified. (0x2)
+[1010/224940:ERROR:gpu_video_decode_accelerator.cc(362)] HW video decode not available for profile 12
+[1010/225111:ERROR:audio_output_device.cc(369)] IO loop going away before the audio device has been stopped
+[1010/225437:WARNING:spdy_session.cc(2427)] Received HEADERS for invalid stream 83
+[1010/225445:ERROR:gpu_video_decode_accelerator.cc(362)] HW video decode not available for profile 12
+[1010/225651:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[1010/225651:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[1010/225651:WARNING:quota_manager.cc(1808)] Create directory failed for path
