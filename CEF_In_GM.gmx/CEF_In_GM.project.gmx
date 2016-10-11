@@ -3,6 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="29" name="datafiles"/>
   <NewExtensions>
     <extension index="0">extensions\WinDev</extension>
   </NewExtensions>
@@ -25,7 +26,7 @@
   </rooms>
   <constants number="2">
     <constant name="release">0</constant>
-    <constant name="gameFilename">"CEF_In_GM"</constant>
+    <constant name="gameFilename">"runner"</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
