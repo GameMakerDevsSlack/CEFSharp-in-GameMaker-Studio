@@ -16,5 +16,7 @@
 [1010/225651:WARNING:quota_manager.cc(1808)] Create directory failed for path
 [1010/225651:WARNING:quota_manager.cc(1808)] Create directory failed for path
 [1010/225651:WARNING:quota_manager.cc(1808)] Create directory failed for path
-[1011/103313:ERROR:ipc_channel_win.cc(217)] pipe error: 109
-[1011/123805:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1011/185827:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1011/190046:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1011/190113:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1011/191248:WARNING:audio_sync_reader.cc(132)] AudioSyncReader::Read timed out, audio glitch count=1

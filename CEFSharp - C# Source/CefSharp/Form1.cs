@@ -146,8 +146,11 @@ namespace CefSharp
 
             chromeBrowser = new ChromiumWebBrowser(args[1]);
 
-            this.Controls.Add(chromeBrowser);
+            chromeBrowser.BrowserSettings.FileAccessFromFileUrls = CefSharp.CefState.Enabled;
+            //this.Controls.Add(chromeBrowser);
+            pnlDisplay.Controls.Add(chromeBrowser);
             chromeBrowser.Dock = DockStyle.Fill;
+            button1.BringToFront();
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -157,6 +160,11 @@ namespace CefSharp
         private void tmrMove_Tick(object sender, EventArgs e)
         {
             SetWindowLong(HWNDPtr, -16, GetWindowLong(HWNDPtr, GWL_STYLE) | WS_CLIPCHILDREN | WS_CLIPSIBLINGS);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }      
 }

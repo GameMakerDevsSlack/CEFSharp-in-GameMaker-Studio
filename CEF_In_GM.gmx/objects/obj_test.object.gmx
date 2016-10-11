@@ -31,7 +31,7 @@
 }
 else
 {
-    CEFPath = ""; //define the correctpath for CEF here
+    CEFPath = "E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.exe"; //define the correct path for CEF here
 }
 // use game_save_id on current versions of GMS
 game_save_path = game_save_id;
