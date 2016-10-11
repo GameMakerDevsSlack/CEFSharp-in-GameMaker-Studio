@@ -25,49 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if release
-{
-    CEFPath = program_directory + "/CEFSharp/CefSharp.exe"; //needs to be initialised!!
-}
-else
-{
-    CEFPath = ""; //define the correctpath for CEF here
-}
-// use game_save_id on current versions of GMS
-game_save_path = game_save_id;
-// remove the trailing slash (if any):
-switch (string_char_at(game_save_path, string_length(game_save_path))) {
-    case "/": case "\":
-        game_save_path = string_copy(game_save_path, 1, string_length(game_save_path) - 1);
-        break;
-    default:
-}
+            <string>///Create
+
+game_save_path = remove_trailing_slash( game_save_id ); //Local storage directory
 url = "http://bettermotherfuckingwebsite.com/"; //Default URL to load
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if keyboard_check(vk_escape)
-{
-    game_end();
+
+if release {
+    CEFPath = program_directory + "/CEFSharp/CefSharp.exe"; //needs to be initialised!!
+} else {
+    CEFPath = "D:\GameMakerDevsSlack Source Control\CEFSharp-in-GameMaker-Studio\Example Executable\CEFSharp\CefSharp.exe"; //define the correctpath for CEF here
 }
 </string>
           </argument>
@@ -91,15 +57,18 @@ url = "http://bettermotherfuckingwebsite.com/"; //Default URL to load
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt_test);
-var str = "
+            <string>///Draw
+
+draw_set_font( fnt_test );
+
+var _str = "
 A - Create new CEF Process#
 Enter - Kill CEF Process#
 S - Change default URL#
-Esc - Exit
-";
-draw_set_color(c_black);
-draw_text(4,4,str);
+Esc - Exit";
+
+draw_set_color( c_black );
+draw_text( 4, 4, _str );
 </string>
           </argument>
         </arguments>
@@ -122,7 +91,9 @@ draw_text(4,4,str);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>url = get_string("Enter a URL","http://bettermotherfuckingwebsite.com/");
+            <string>///S
+
+url = get_string( "Enter a URL", "http://bettermotherfuckingwebsite.com/" );
 </string>
           </argument>
         </arguments>
@@ -145,8 +116,34 @@ draw_text(4,4,str);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>///A
+
 scr_cef_start(url,gameFilename);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="27">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Escape
+
+game_end();
 </string>
           </argument>
         </arguments>
@@ -169,7 +166,9 @@ scr_cef_start(url,gameFilename);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//show_debug_message('killing');
+            <string>///Enter
+
+//show_debug_message('killing');
 scr_cef_kill();
 /*
 var bat = file_text_open_write("kill.bat");

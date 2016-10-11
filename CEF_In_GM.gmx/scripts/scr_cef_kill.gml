@@ -1,3 +1,5 @@
+///scr_cef_kill()
+
 var bat = file_text_open_write("kill.bat");
 file_text_write_string(bat,"@echo off");
 file_text_writeln(bat);
