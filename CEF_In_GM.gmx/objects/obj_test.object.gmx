@@ -25,14 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if release
+            <string>
+if release
 {
     CEFPath = program_directory + "/CEFSharp/CefSharp.exe"; //needs to be initialised!!
 }
 else
 {
-    CEFPath = "E:\VB\CefSharp - Copy (2)\CefSharp\bin\x86\Release\CefSharp.exe"; //define the correct path for CEF here
+    CEFPath = "C:\Users\Owner\Documents\GitHub\CEFSharp_In_GameMaker_Studio\CEFSharp - C# Source\CefSharp\bin\x86\Release\CefSharp.exe"; //define the correct path for CEF here
 }
+progName = filename_name(parameter_string(0));
 // use game_save_id on current versions of GMS
 game_save_path = game_save_id;
 // remove the trailing slash (if any):
@@ -146,7 +148,7 @@ draw_text(4,4,str);
           <argument>
             <kind>1</kind>
             <string>
-scr_cef_start(url,gameFilename);
+scr_cef_start(progName);
 </string>
           </argument>
         </arguments>
